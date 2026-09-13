@@ -104,6 +104,20 @@ three (`day6_crossover`, `day6_recovery`, `day7_Gcheck`) agree to relative
 diagnostic, whose own level is `3e-10`). All computations are
 deterministic; differences of this size are last-digit rounding.
 
+## Addendum (September 2026)
+
+The folder `addendum/` holds the six scripts behind the closing addendum to
+the paper (*Two Prices of Sign, a Positive Second-Order Kernel, and Prior
+Art*, same Zenodo record, tag `study2_addendum_v1`): the exact
+total-variation norm of the signed one-step measure and the
+importance-sampling lower bound `||mu_tau||_TV^{2n}` (the "stochastic price"
+of the sign, next to the spectral threshold `lambda_c` of the paper); the
+positive two-window kernel of second order (`lambda_c = 0`, `TV = 1`, no
+boundary layer) and its variable-coefficient extension with the symbolic
+moment system, adjoint expansion and discrete operator norm behind the
+Bally–Rey total-variation corollary. See `addendum/README.md` for the
+scripts, what each prints and the run times.
+
 ## Related records
 
 - Paper (this study):
